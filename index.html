@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
 	</head>
 	<body>
 
@@ -109,7 +110,7 @@
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
 							<p>Drop me a line! I'd love to hear from you.</p>
-							<form method="post" action="#">
+							<form id="gform" method="post" action="https://script.google.com/macros/s/AKfycbwhAOG09IK7Ebi9go8AZDsk5_yMGCgAzt3q85czFjTK2__-kB_o/exec">
 								<div class="field">
 									<label for="name">Name</label>
 									<input type="text" name="name" id="name" />
