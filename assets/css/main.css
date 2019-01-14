@@ -1997,6 +1997,10 @@ h6.major {
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
 }
 
+.applink {
+	color: #77abff;
+}
+
 h2 {
 	font-size: 1.2em;
 }
